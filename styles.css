@@ -1,0 +1,114 @@
+/*stylesheet*/
+
+.header {
+    background-color: rgba(23, 64, 76, 0.4);
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hleft {
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.hright {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    margin: 2rem;
+}
+
+.pbody {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-right: 1em;
+    padding-bottom: 70px;
+}
+
+.tcont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+    height: auto;
+    width: 50vw;
+    margin: 1rem;
+}
+
+.thead {
+    font-size: 26px;
+    height: fit-content;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.tpara {
+    font-size: 18px;
+}
+
+td {
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.pfoot {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: rgba(77, 214, 235, 0.4);
+    background-color: rgb(10, 24, 29);
+    justify-items: center;
+}
+
+.pimage {
+    margin: 8px;
+    width: 15vw;
+    object-fit: contain;
+    flex: 0 1 300px;
+}
+
+body {
+    background-color: black;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: black;
+    color: azure;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 24, 29);
+    color: azure;
+    transform: translateX(-100%);
+}
